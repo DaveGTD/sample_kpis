@@ -59,3 +59,17 @@ for num in range(0,10):
     tag_e = 'advisor_on_location=' + str(e)
     n = a + b + c + d + e
     print (key, ts, n, tag_a, tag_b, tag_c, tag_d, tag_e)
+
+for num in range(0,10):
+    key = 'demographics'
+    n = randint(300, 600)
+    ts = int(randomTimestamp("1/1/1991", "1/12/2016"))
+    a = randint(10,45)
+    tag_a = 'percent_grad=' + str(a)
+    b = randint(20,40)
+    tag_b = 'percent_undergrad=' + str(b)
+    c = randint(20,40)
+    tag_c = 'percent_employed=' + str(c)
+    d = randint(30,70)
+    tag_d = 'percent_management=' + str(d)
+    print (key, ts, n, tag_a, tag_b, tag_c, tag_d)
